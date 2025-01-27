@@ -32,9 +32,13 @@
               }
             ],
             "styles": [
+              "public/css/wave-bsb.css",
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "public/js/project-2.js",
+              "public/js/wave-bsb.js"              
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
